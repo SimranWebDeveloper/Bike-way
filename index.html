@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike-way : Sport Shop</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjotE3uq5ze6LcO2tk_-eZV1q8HvElLFemHA&usqp=CAU"
+    />
+    <!--  Sass -->
+    <link rel="stylesheet" href="Sass/syle.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.min.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!--  JS -->
+    <script type="module" defer src="Js/script.js"></script>
+  </head>
+  <body>
+    <section class="bike py-5">
+      <div class="d-flex justify-content-center">
+        <div class="w-75 text-center">
+          <img
+            src="http://bikeway.themes.zone/wp-content/uploads/2017/03/cropped-Bikeway_Logo_new.png"
+            alt=""
+            class="img-fluid"
+          />
+
+          <ul class="list-unstyled d-flex justify-content-between pt-5">
+            <li>HOME</li>
+            <li class="bike-btn">BIKES</li>
+            <li>BIKE PARTS</li>
+            <li>CLOTHING</li>
+            <li>PAGES</li>
+            <li>BLOG</li>
+            <li>CONTACTS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="select">
+      <div class="row g-5">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <button
+            id="bike"
+            class="py-1 px-3 border-0 bg-success text-white fs-5 rounded ms-5 my-3"
+          >
+            CATEGORIES - Bike
+          </button>
+
+          <div class="bike-categories bg-dark text-white rounded p-1">
+            <p class="text-end mb-0">
+              <i class="cancel bi bi-x-circle-fill text-danger fs-4"></i>
+            </p>
+            <ul class="list-unstyled px-5 lh-lg">
+              <a class="btn selected">BMX</a>
+              <a class="btn selected">Children Bike</a>
+              <a class="btn selected">City Bike</a>
+              <a class="btn selected">Custom Bike</a>
+              <a class="btn selected">E Bike</a>
+              <a class="btn selected">Freeriede Bike</a>
+              <a class="btn selected">Mountain Bike</a>
+              <a class="btn selected">Trial Bike</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+          <h1>BIKE</h1>
+          <div>
+            <div class="row bg-body-secondary py-2 my-2">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4"><p class="text-muted">Showing all 5 results</p></div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <ol class="list-unstyled d-flex d-flex justify-content-between w-50">
+                        <li class="multi-col"><i class="bi bi-menu-button-wide-fill"></i></li>
+                        <li class="mono-col"><i class="bi bi-list"></i></li>
+                        <li class="text-muted">SHOW </li>
+                    </ol>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4"><input type="search" placeholder="Sort by Latest"></div>
+            </div>
+          </div>
+          <div class="myBike d-flex flex-wrap">
+            <!-- -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

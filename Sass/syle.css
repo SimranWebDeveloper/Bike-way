@@ -1,0 +1,61 @@
+.bike li {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+}
+
+.select ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.select ul a {
+  color: azure;
+}
+
+.bike-categories {
+  width: 300px;
+  height: 400px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateX(-500px);
+          transform: translateX(-500px);
+}
+
+.move {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.green {
+  background-color: #198754;
+  color: white;
+}
+
+.main-Sale {
+  position: relative;
+}
+
+.Sale {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid #198754;
+  color: #198754;
+  padding: 5PX 10px;
+  background-color: white;
+}
+/*# sourceMappingURL=syle.css.map */
